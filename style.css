@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: hsl(218, 23%, 16%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 18px;
+    max-width: 348px;
+}
+
+h1 {
+    font-size: .7rem;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 4px;
+}
+
+p {
+    font-size: 1.4rem;
+    color: hsl(193, 38%, 86%);
+}
+
+.divider {
+    background: url(./images/pattern-divider-mobile.svg) no-repeat center;
+    width: 348px;
+    height: 32px;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dice {
+    background: url(./images/icon-dice.svg) no-repeat center;
+    width: 28px;
+    height: 28px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 16px;
+    border-radius: 50%;
+    transform:translateY(46px);    
+    cursor: pointer;
+}
+
+.dice:hover {
+    filter: brightness(1.2);
+}
